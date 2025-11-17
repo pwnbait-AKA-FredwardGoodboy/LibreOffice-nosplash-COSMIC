@@ -5,7 +5,7 @@ This is a bash shell script to remove the splash screen from the LibreOffice sui
 This script is intended to make it easier for users who may not be familiar with the processes involved, as Pop!_OS is increasingly being recommended to beginners wishing to migrate from a Windows environment with gaming in mind, as well as users with NVIDIA hardware, as it is not only supported out of the box, but often may contain performance improvements by default that are not included in other distributions.
 
 **The Why:**
-Some users have experienced issues with launching LibreOffice in Pop!_OS. The splash screen appears, becomes stuck on top of other windows, and cannot be hidden, closed, or otherwise modified. They remain resident even if all LibreOffice processes are terminated. They are ghost windows, and probably a result of a feature of the compositor, rather than a bug. Windows in COSMIC (Wayland) are more or less sovereign entities and do not play nicely with others.
+Some users have experienced issues with launching LibreOffice in Pop!_OS 24.04. The splash screen appears, becomes stuck on top of other windows, and cannot be hidden, closed, or otherwise modified. They remain resident even if all LibreOffice processes are terminated. They are ghost windows, and probably a result of a feature of the compositor, rather than a bug. Windows in COSMIC (Wayland) are more or less sovereign entities and do not play nicely with others.
 
 **The What:**
 The simplest solution to this problem is to use the built-in flags in LibreOffice to prevent the splash at program launch.
